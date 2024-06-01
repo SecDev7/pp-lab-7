@@ -37,7 +37,7 @@ public class Main extends Application {
         HBox hBox = new HBox(10, directoryPathField, browseButton);
         VBox vBox = new VBox(10, hBox, searchField, searchButton, resultArea);
 
-        Scene scene = new Scene(vBox, 600, 400);
+        Scene scene = new Scene(vBox, 600, 200);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
